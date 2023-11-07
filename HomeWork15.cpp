@@ -35,7 +35,7 @@ int main() {
 	std::cin >> n;
 	std::sort(arr[n], arr[n] + cols);
 			
-	std::cout << "Массив с сортировкой строки " << n << '\n';
+	std::cout << "Массив с сортировкой ряда " << n << '\n';
 	for (int i = 0; i < rows; i++) {
 		for (int j = 0; j < cols; j++) {
 			std::cout << arr[i][j] << '\t';
